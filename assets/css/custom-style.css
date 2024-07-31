@@ -1,0 +1,394 @@
+td, th {
+	border: none !important;
+}
+#reviewForm .modal-header .close {
+    margin-top: -2px;
+    margin-right: -12px;
+}
+#myModal, #reviewForm{
+	margin-top : 90px;
+}
+/*#reviewForm.fade.in{
+	opacity : 1;
+}*/
+#reviewForm .modal-dialog{
+	 max-height: calc(100vh - 210px);
+     overflow-y: auto;
+}
+.Clint-image{
+	float:left; 
+	width:12%;
+}
+.error{
+	color:red;
+}
+#btn-image-upload{
+	width: 100%;
+	background-color:transparent;
+	color:#000;
+	border: 1px dashed #ccc;
+	text-decoration: none;
+	padding:21px 10px;
+}
+.modal-header .modal-cross{
+	margin-right:16px;	
+}
+.modal-header .close{
+	background-color:#ffffff ;
+	color:#000;
+	opacity:1;
+	opacity:1;
+}
+.graph-left{
+	width:100%;
+	float:left;
+	position: relative;
+}
+
+.modal-close{
+	margin-right:20px;
+	margin-right: 20px;
+	float: right;
+	background-color:#000;
+	border: 0;
+	border-radius: 5px;
+}
+.table-heading{
+	text-align: left;
+    font-size: 20px;
+}
+.user-image{
+	height:110px !important;
+	width:90px;
+}
+.clint-review{
+	width: 85%;
+	float: right;
+}
+.clint-reply{
+	float:right;
+	width:85%;
+}
+.review-date{
+	font-size: 12px; 
+	margin-bottom:0px;
+	color:gray;
+}
+.load-more-button{
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 4px;
+	text-decoration: none;
+	background-color:gray !important;
+	text-decoration: none !important;
+	color: #fff;
+	border: solid 1px;
+	font-weight: bold;
+}
+#my-review{
+	width:100%; 
+	border-style: none;
+}
+.review-booster-block{
+	width:100%; 
+	padding: 1% 2%;
+}
+
+
+
+/* New css*/
+
+.left-part{
+	width:20%;
+	float:left;
+	padding-top: 4%;
+	padding-left: 3%;
+}
+.left-part .review-average{
+	padding: 20px;
+    background: grey;
+	border-radius: 5px;
+	color:#fff;
+	font-weight: bold;
+}
+.right-part{
+	width:55% !important;
+	float:left;
+	margin-bottom: 60px;
+}
+.write-review{
+	width:20%;
+	float: left;
+}
+.heading {
+  font-size: 25px;
+   font-weight: bold;
+}
+.icon{
+	font-size: 21px;
+}
+.fa {
+  font-size: 18px;
+}
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 56%;
+}
+
+/* Place text to the right */
+.right {
+  color:gray;
+  padding-left: 12px;
+  padding-top: 4px;
+}
+
+/* Clear floats after the columns */
+.row{
+	display: block !important;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Individual bars */
+.bar{height: 10px; background-color: orange;border-radius: 5px;}
+
+.add-review {
+padding: 6px 12px;
+background: gray;
+color:#fff;
+text-decoration: none;
+border-radius: 3px;
+font-size:18px;
+float: right;
+}
+.write-review a:hover, .write-review a:focus{
+	color:#fff;
+	text-decoration: none;
+}
+
+
+.modal-header{border-bottom:0px; padding-bottom: 0px; padding-top: 3px;}
+.modal-footer{border-top:0px; padding-bottom: 3px; padding-top: 0px;}
+.checked{color:orange;}
+	input#code {
+	height: calc(1.5em + .5rem + 1px);
+	line-height: 1;
+	padding: 0rem .75rem;
+}
+    .modal-dialog{margin: 0 auto;}
+    .modal-footer{display: contents;}
+    button.btn.btn-submit {
+    background: #39332e;
+    width: 150px;
+    display: flex;
+    margin: 0px auto;
+    color: white;
+    margin-bottom: 15px;
+}
+#reviewForm .btn-submit{
+	border-radius: 3px;
+	padding: 6px 1.75rem;
+	line-height: 1.5;
+	font-weight: bold;
+}
+#reviewForm input[type="text"].form-control, #reviewForm input[type="email"].form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 8px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+	background-color:#fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#reviewForm .text-block{
+	float: left; 
+	padding-left:0px;
+}
+#show-image img{
+	width:100%;
+	height:61px;
+}
+#reviewForm, .modal-title{
+	color:#000;
+}
+.average-graph{
+	width:100%;
+}
+.one-line{
+	width:100%;
+	float:left;
+}
+
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (min-width:320px) and (max-width:414px){
+	.modal-header .modal-cross{
+		margin-right:0px;
+	}
+	.modal-close{
+		margin-right:0;
+	}
+	.Clint-image {
+		margin-right : 15px;
+		width:30%;
+	}
+	#reviewForm .email-block{
+		padding-left: 0;
+	}
+	#show-image img{
+		height:53px;
+	}
+	.side {
+		width: 15%;
+	}
+	.right {
+		 width: 5%;
+	}
+	.add-review{
+		  float:left;
+		  margin-top:0px;
+		  margin-bottom: 20px;
+	 }
+	.right-part{
+		width:70%;
+	}
+	.left-part{
+		padding-top: 10%;
+	}
+	
+	.left-part {
+    width: 50%;
+    float: initial;
+    padding-top: 4%;
+    padding-left: 3%;
+	}
+	.right-part {
+		width: 100% !important;
+		/* float: left; */
+		margin-bottom: 0px;
+		padding-top: 60px;
+	}
+	.write-review {
+		position: absolute !important;
+		right:0px !important;
+		top: 0px !important;
+		display: block;
+		width: 50%;
+	}
+	.middle{width:74%;}
+	
+	
+	
+}
+@media (min-width:768px) and (max-width:800px){
+	.Clint-image {
+		margin-right : 15px;
+		width:14%;
+	}
+	.clint-review{
+		padding-right: 50px;
+	}
+	.review-booster-block {
+		padding: 2% 8%;
+	}
+}
+
+@media (min-width:769px) and (max-width:800px){
+	.clint-review {
+		width: 84%;
+	}
+	.clint-reply{
+		width: 82%;
+	}
+	.add-review {
+		padding: 6px 8px;
+		font-size: 13px;
+	}
+	.write-review{width:25%;}
+}
+@media (min-width:320px) and (max-width:968px){
+	
+	.review-booster-block{
+		width:100%; 
+	}
+	
+	.clint-review{
+		width: 100%;
+		float: none;
+	}
+	.review-date{
+		display : block;
+	}
+	.clint-reply{
+		width: 100%;
+		float: none;
+	}
+}
+
+/*soham css */
+@media (min-width:415px) and (max-width:768px){
+	.left-part {
+    width: 50%;
+    float: initial;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+.right-part {
+    width: 100% !important;
+    /* float: left; */
+    margin-bottom: 0px;
+    padding-top: 60px;
+}
+.write-review {
+    position: absolute !important;
+    right: 0px !important;
+    top: 0px !important;
+    display: block;
+    width: 100%;
+}
+.middle{width:70%;}
+}
+
+@media (max-width: 414px) and (min-width: 320px){
+.write-review{top:0px;}
+.add-review{margin-top:0px;}
+}
+@media (min-width: 576px){
+	#reviewForm .modal-dialog {
+   		 max-width: 600px;
+		 max-height: calc(100vh - 100px);
+    	 overflow-y: auto;
+	}
+}
+
+
+
+
